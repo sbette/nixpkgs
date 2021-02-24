@@ -46,7 +46,7 @@ let
     };
     "0.47.05" = {
       unfuckRelease = "0.47.05";
-      sha256 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+      sha256 = "1wa990xbsyiiz7abq153xmafvvk1dmgz33rp907d005kzl1z86i9";
     };
   };
 
