@@ -58,6 +58,12 @@ let
       xmlRev = "036b662a1bbc96b4911f3cbe74dfa1243b6459bc";
       prerelease = false;
     };
+    "0.47.05" = {
+      dfHackRelease = "0.47.05-beta1";
+      sha256 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+      xmlRev = "f45c7324de5ab6b18b3a3348a542cd125352ca0c";
+      prerelease = true;
+    };
   };
 
   release = if hasAttr dfVersion dfhack-releases

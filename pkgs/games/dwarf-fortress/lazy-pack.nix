@@ -10,13 +10,13 @@
 , enableStoneSense ? true
 , enableDwarfTherapist ? true
 , enableLegendsBrowser ? true, legends-browser
-, theme ? themes.phoebus
+, theme ? themes.cla
 # General config options:
-, enableIntro ? true
-, enableTruetype ? true
-, enableFPS ? false
+, enableIntro ? false
+, enableTruetype ? false
+, enableFPS ? true
 , enableTextMode ? false
-, enableSound ? true
+, enableSound ? false
 }:
 
 with lib;
