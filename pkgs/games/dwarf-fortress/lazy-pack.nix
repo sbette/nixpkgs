@@ -7,8 +7,8 @@
 , enableDFHack ? stdenvNoCC.isLinux
 , enableTWBT ? enableDFHack
 , enableSoundSense ? true
-, enableStoneSense ? true
-, enableDwarfTherapist ? true
+, enableStoneSense ? false
+, enableDwarfTherapist ? false
 , enableLegendsBrowser ? true, legends-browser
 , theme ? themes.cla
 # General config options:
